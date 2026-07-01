@@ -1,3 +1,5 @@
+*This is a fork of https://github.com/kzk/jemalloc-rb, which appears to no longer be maintained.*
+
 # je_malloc
 
 Instant [jemalloc](https://jemalloc.net/) injection into Ruby apps, for better performance and less memory.
