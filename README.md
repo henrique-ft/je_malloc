@@ -38,7 +38,3 @@ Execute your application with `je` command, which is contained in `je` gem. Exam
 ## Limitation
 
 Currently, this gem works only on Linux and Mac OS X.
-
-# License
-
-[BSD-derived License](http://www.canonware.com/jemalloc/license.html).
