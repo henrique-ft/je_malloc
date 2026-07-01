@@ -1,4 +1,4 @@
-*This is a fork of https://github.com/kzk/jemalloc-rb, which appears to no longer be maintained.*
+*This is a fork of https://github.com/kzk/jemalloc-rb (which appears to no longer be maintained). I created this repository to keep the jemalloc (now je_malloc) gem active and open to pull requests.*
 
 # je_malloc
 
