@@ -19,8 +19,8 @@ if argv[0] == '-v'
   $verbose = true
   argv = argv[1..-1]
 elsif argv[0] == '--version'
-  require 'jemalloc/version'
-  puts "jemalloc version #{JEMalloc::VERSION}"
+  require 'jemalloc_rb/version'
+  puts "jemalloc_rb version #{JEMalloc::VERSION}"
   exit
 end
 usage() if argv.length == 0

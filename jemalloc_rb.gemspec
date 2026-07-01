@@ -1,15 +1,15 @@
 # -*- mode: ruby; coding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require 'je_malloc/version'
+require 'jemalloc_rb/version'
 
 Gem::Specification.new do |s|
-  s.name = "je_malloc"
-  s.version = JeMalloc::VERSION
+  s.name = "jemalloc_rb"
+  s.version = JemallocRb::VERSION
   s.summary = "Use jemalloc as default allocator, everywhere!"
   s.description = %q{Use jemalloc as default allocator, everywhere!}
   s.author = "Henrique F. Teixeira"
   s.email = "hrique.work@gmail.com"
-  s.homepage = "https://github.com/henrique-ft/je_malloc"
+  s.homepage = "https://github.com/henrique-ft/jemalloc_rb"
   s.extensions = ["ext/jemalloc/extconf.rb"]
 
   s.files = `git ls-files`.split("\n")

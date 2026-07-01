@@ -1,6 +1,6 @@
-*This is a fork of https://github.com/kzk/jemalloc-rb (which appears to no longer be maintained). I created this repository to keep the jemalloc (now je_malloc) gem active and open to pull requests.*
+*This is a fork of https://github.com/kzk/jemalloc-rb (which appears to no longer be maintained). I created this repository to keep the jemalloc (now jemalloc_rb) gem active and open to pull requests.*
 
-# je_malloc
+# jemalloc_rb
 
 Instant [jemalloc](https://jemalloc.net/) injection into Ruby apps, for better performance and less memory.
 
@@ -10,15 +10,15 @@ Ruby relies on malloc(3) for its internal memory allocation. Using better malloc
 
 jemalloc is a malloc(3) implementation, originally developed by Jason Evans. jemalloc handles small object better than other allocators so usually gives better performance and memory usage to Ruby programs.
 
-# Why je_malloc?
+# Why jemalloc_rb?
 
-Installing jemalloc separately from Ruby is pain in some cases (e.g. Heroku, EngineYard, etc). `je` gem contains jemalloc itself within a gem, and enables instant jemalloc injection in a really easy way: install `je_malloc` gem, and launch your app with `je` command.
+Installing jemalloc separately from Ruby is pain in some cases (e.g. Heroku, EngineYard, etc). `je` gem contains jemalloc itself within a gem, and enables instant jemalloc injection in a really easy way: install `jemalloc_rb` gem, and launch your app with `je` command.
 
 # Install
 
-Install `je_malloc` gem in your application. For [bundler](http://gembundler.com/) based application, please add the following line into your Gemfile, and and install `je_malloc` by `bundle install`.
+Install `jemalloc_rb` gem in your application. For [bundler](http://gembundler.com/) based application, please add the following line into your Gemfile, and and install `jemalloc_rb` by `bundle install`.
 
-    gem 'je_malloc'
+    gem 'jemalloc_rb'
 
 # Usage
 

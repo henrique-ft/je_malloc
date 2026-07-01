@@ -1,3 +1,3 @@
-module JeMalloc
+module JemallocRb
   VERSION = "1.0.0"
 end
