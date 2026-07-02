@@ -26,7 +26,7 @@ Install `jemalloc_rb` gem in your application. For [bundler](http://gembundler.c
 
 Execute your application with `je` command, which is contained in `je` gem. Example command for Rails + bundler application is like follows.
 
-    $ bundle exec je s
+    $ bundle exec je rails s
 
 `-v` option will let you confirm jemalloc is actually injected.
 
